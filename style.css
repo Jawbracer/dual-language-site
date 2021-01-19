@@ -450,7 +450,37 @@ body {
   #blogpost .card-image:hover{
     box-shadow: none;
   }
+
+  /* Grid Wrapper */
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    grid-auto-rows: minmax(auto, 150px);
+  }
+
+  .grid-item{
+    border: 1px solid grey;
+    background-color: grey;
+    transition: 0.4s;
+  }
+
+  .grid-item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
   
+  .grid-item img:hover:after{
+    content:"\A";
+    width:100%;
+    height:100%;
+    background:rgba(255, 0, 0, 0.5);
+    position:absolute;
+    top:0;
+    left:0;
+  }
   /* Media Queries */
   
   @media (max-width: 900px) {
