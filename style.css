@@ -96,13 +96,13 @@ body {
   /* Navigation */
   
   nav {
-    height: 72px;
-    background: #202125;
+    height: 55px;
+    background: grey;
     width: 100%;
     margin: 0;
     position: fixed;
     font-family: 'Fraunces', serif;
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     justify-content: space-evenly;
     padding: 0 16px 0 0;
@@ -137,7 +137,7 @@ body {
   #logo-img {
     display: flex;
     height: 100%;
-    background: palevioletred;
+    background: grey;
     padding: 0 32px;
     align-items: center;
     color: white;
@@ -149,7 +149,7 @@ body {
   }
   
   #logo-img:hover {
-    background: black;
+    background:palevioletred;
   }
   
   #menu-icon {
@@ -159,19 +159,6 @@ body {
     color: #eee;
     display: none;
     align-items: center;
-  }
-  
-  /* Search Icon */
-  
-  #search-icon {
-    color: white;
-    padding: 0 32px;
-    cursor: pointer;
-    transition: 0.4s;
-  }
-  
-  #search-icon:hover {
-    color: palevioletred;
   }
   
   /* Slideout Menu */
