@@ -1,6 +1,7 @@
 body {
     font-family: 'Fraunces', serif;
     margin: 0;
+    background-color: whitesmoke;
   }
   
   h1 {
@@ -448,7 +449,8 @@ body {
 
   .grid-item{
     border: 1px solid whitesmoke;
-    transition: 0.4s;
+    transition: 0.5s;
+    background-color: blanchedalmond;
   }
 
   .grid-item img{
@@ -459,6 +461,7 @@ body {
 
   .grid-item img:hover{
     box-shadow: 10px 10px 10px -6px darkgray;
+    opacity: 0.8;
   }
 
   /* Media Queries */
